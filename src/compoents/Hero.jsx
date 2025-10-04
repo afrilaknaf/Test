@@ -104,6 +104,44 @@ export default function Hero() {
                 <p>Join thousand of professionals who have successfully landed thier dream jobs</p>
                 <button>Start Bulding Now</button>
             </div>
+
+
+            <div className="Features">
+                <div className="TwolineContent">
+                    <h1>Powerful <span style={{ color: "#129db6" }}>Features</span></h1>
+                    <p>Everything you need to create an outstanding resume</p>
+                </div>
+                <div className="FourBox">
+                    <Paper elevation={3} className='onecolor' sx={{backgroundColor:"#161748",borderRadius:"20px"}}>
+                    <div id="one">
+                        <DescriptionIcon sx={{ width: "60px", height: "100px", color: "#129db6" }} />
+                        <h2>Smart Builder</h2>
+                        <p>Interactive resume builder with real-time preview and professional templates</p>
+                    </div>
+                    </Paper>
+                    <Paper elevation={3} className='onecolor' sx={{backgroundColor:"#161748",borderRadius:"20px"}}>
+                    <div id="one">
+                        <AnalyticsIcon sx={{ width: "60px", height: "100px", color: "#129db6" }} />
+                        <h2>AI Analyzer</h2>
+                        <p>Get intelligent feedback and suggestions to improve your resume content</p>
+                    </div>
+                    </Paper>
+                    <Paper elevation={3} className='onecolor' sx={{backgroundColor:"#161748",borderRadius:"20px"}}>
+                    <div id="one">
+                        <ElectricBoltIcon sx={{ width: "60px", height: "100px", color: "#129db6" }} />
+                        <h2>Instant Preview</h2>
+                        <p>See your changes in real-time with our live preview feature</p>
+                    </div>
+                    </Paper>
+                    <Paper elevation={3} className='onecolor' sx={{backgroundColor:"#161748",borderRadius:"20px"}}>
+                    <div id="one">
+                        <ShieldIcon className='iconcolor' sx={{ width: "60px", height: "90px", color: "#129db6",borderRadius:"40%" }} />
+                        <h2>ATS Optimized</h2>
+                        <p>Ensure your resume passes through applicant tracking systems</p>
+                    </div>
+                    </Paper>
+                </div>
+            </div>
         </>
 
     )
