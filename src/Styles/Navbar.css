@@ -1,0 +1,59 @@
+.Navbartwo button{
+ width: 90px;
+ height: 35px;
+ border-radius: 10px;
+ transition: all 0.2s;
+ color: #333333;
+ &:hover{
+    box-shadow: 0 0 6px #129db6, 0 0 12px #129db6;
+ }   
+}
+.Navbaradmin button{
+  width: 98px;
+ height: 35px;
+ border-radius: 10px;
+ transition: all 0.2s;
+ color:#333333;
+ &:hover{
+    box-shadow: 0 0 6px #129db6, 0 0 12px #129db6;
+ }    
+}
+.Navbar{
+    padding-top: 0px;
+    position: fixed;
+    z-index: 100;
+}
+.Navbarcontent{
+   backdrop-filter: blur(60px);
+   margin-top: 20px;
+   position: fixed;
+}
+@media (min-width:400px) and (max-width:550px){
+   .Navbarcontent{
+      width: 400px;
+      justify-content: space-around;
+   }
+   .Navbarone h1{
+      font-size: 22px;
+   }
+}
+@media (min-width:300px) and (max-width:400px){
+   .Navbarcontent{
+      width: 300px;
+      justify-content: space-around;
+   }
+   .Navbarone h1{
+      font-size: 20px;
+   }
+}
+@media (min-width:550px) and (max-width:900px){
+   .Navbarcontent{
+      width: 550px;
+      justify-content: space-between;
+      padding-right: 30px;
+   }
+   .Navbarone h1{
+      font-size: 20px;
+   }
+}
+
