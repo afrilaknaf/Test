@@ -45,7 +45,7 @@
 }
 .Features {
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #F5F7FA;
   display: flex;
   flex-direction: column;
@@ -391,7 +391,7 @@ background: linear-gradient(135deg, #129db6, #2563eb, #0f172a);
   }
   .Features {
     width: 100%;
-    /* height: 3500px; */
+    height: 2000px;
     padding-top: 100px;
     background-color: #F5F7FA;
     display: flex;

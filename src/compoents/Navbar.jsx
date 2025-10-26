@@ -53,7 +53,7 @@ export default function Navbar() {
             </div>
             <div className='Navbartwo flex gap-8'>
               <button onClick={() => navigate("/login")}>Login</button>
-              <button onClick={() => navigate("/signup")}>Signup</button>
+              <button onClick={() => navigate("/signups")}>Signup</button>
               <button>Logout</button>
             </div>
           </>

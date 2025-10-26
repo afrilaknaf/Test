@@ -6,6 +6,7 @@ import ImagesinHero from './compoents/ImagesInHero'
 import { Route,Routes } from 'react-router-dom'
 import Signup from './compoents/Siggnup'
 import MobileNavbar from './compoents/MobileNavbar'
+import Login from './compoents/Login'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route index element={<Hero/>}/> 
-        <Route path='/singup' element={<Signup/>}/> 
+        <Route path='/signups' element={<Signup/>}/> 
+        <Route path="/login" element={<Login/>}/>
       </Routes>
       {/* <ImagesinHero/> */}
     </>
