@@ -38,7 +38,7 @@ export default function Signup() {
             console.log(res.data)
             toast.success("Form Submitted Successfully")
             setTimeout(() => {
-                page("/")
+                page("/login")
             }, 3000)
         }).catch((err) => {
             console.log(err)
